@@ -192,7 +192,7 @@ module.exports.resendOtp = (req,res)=>{
             {
                 res.send({
                     "status":"1",
-                    "message":"New otp send to your Mobile"
+                    "message":"New otp send to your Mobile",otp
                 })
             }
         });
